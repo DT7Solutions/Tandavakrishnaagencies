@@ -33,7 +33,7 @@ a:active {
 
 html .text-color-primary,
 html .text-primary {
-	color: #00a1cd !important;
+	color: #2e3192 !important;
 }
 
 html .text-color-hover-primary:hover,
@@ -4705,7 +4705,7 @@ html[dir="rtl"] #header .tip-light:before {
 	}
 
 	#header .header-nav.header-nav-links nav > ul:not(:hover) > li > a.active {
-		color: #00a1cd;
+		color: #2e3192;
 	}
 
 	#header .header-nav.header-nav-links.header-nav-links-vertical-slide nav ul li.dropdown .dropdown-menu::-webkit-scrollbar-thumb {
@@ -7196,7 +7196,7 @@ html.boxed .body {
 }
 
 .custom-line {
-	border-bottom-color: #00a1cd;
+	border-bottom-color: #2e3192;
 }
 
 .owl-carousel.nav-arrows-1 .owl-nav .owl-prev,
