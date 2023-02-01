@@ -20,11 +20,11 @@ a {
 }
 
 a:hover {
-	color: #00b5e7;
+	color: #e17102;
 }
 
 a:focus {
-	color: #00b5e7;
+	color:  #e17102;
 }
 
 a:active {
@@ -33,7 +33,7 @@ a:active {
 
 html .text-color-primary,
 html .text-primary {
-	color: #2e3192 !important;
+	color: #e17102 !important;
 }
 
 html .text-color-hover-primary:hover,
@@ -43,7 +43,7 @@ html .text-hover-primary:hover {
 
 html .text-color-secondary,
 html .text-secondary {
-	color: #183f72 !important;
+	color: #2e3192 !important;
 }
 
 html .text-color-hover-secondary:hover,
@@ -488,7 +488,7 @@ html .bg-color-hover-before-secondary:before:hover {
 
 html .bg-color-tertiary,
 html .bg-tertiary {
-	background-color: #0281d7 !important;
+	background-color: #e17102 !important;
 }
 
 html .bg-color-hover-tertiary:hover,
@@ -631,7 +631,7 @@ html .border-color-primary {
 }
 
 html .border-color-hover-primary:hover {
-	border-color: #00a1cd !important;
+	border-color: #e17102 !important;
 }
 
 html .border-color-secondary {
@@ -1103,6 +1103,14 @@ html .btn-primary {
 	--hover: #00bff3;
 	--disabled: #00a1cd;
 	--active: #0083a7;
+	/* background-color: #ff6716;
+    border-color: #ff6716 #ff6716 #e24f00;
+    color: #fff;
+    --color: #ff6716;
+    --hover: #ff803c;
+    --disabled: #ff6716;
+    --active: #ef5300; */
+
 }
 
 html .btn-primary:hover,
@@ -4705,7 +4713,7 @@ html[dir="rtl"] #header .tip-light:before {
 	}
 
 	#header .header-nav.header-nav-links nav > ul:not(:hover) > li > a.active {
-		color: #2e3192;
+		color: #e17102;
 	}
 
 	#header .header-nav.header-nav-links.header-nav-links-vertical-slide nav ul li.dropdown .dropdown-menu::-webkit-scrollbar-thumb {
@@ -7188,7 +7196,8 @@ html.boxed .body {
 }
 
 .custom-svg-fill-color-tertiary-darken {
-	fill: #0272be;
+	/* fill: #0272be; */
+	fill:#fbb03b;
 }
 
 .custom-highlight-1.custom-highlight-1-primary:after {
@@ -7196,7 +7205,7 @@ html.boxed .body {
 }
 
 .custom-line {
-	border-bottom-color: #2e3192;
+	border-bottom-color: #e17102;
 }
 
 .owl-carousel.nav-arrows-1 .owl-nav .owl-prev,
@@ -7205,7 +7214,7 @@ html.boxed .body {
 }
 
 .custom-card-style-1:hover {
-	border-color: #00a1cd;
+	border-color: #fbb03b;
 }
 
 .custom-card-style-1:hover .custom-card-style-1-title {
@@ -7217,7 +7226,7 @@ html.boxed .body {
 }
 
 .custom-accordion-style-1 > .card .card-header a {
-	background-color: #00a1cd;
+	background-color: #e17102;
 }
 
 .custom-accordion-style-1 > .card .card-header a:not(.collapsed) {
@@ -7229,11 +7238,11 @@ html.boxed .body {
 }
 
 .custom-accordion-style-1 > .card:hover {
-	border-color: #00a1cd !important;
+	border-color:  #e17102 !important;
 }
 
 .custom-accordion-style-1 > .card:hover .card-header a.collapsed {
-	color: #00a1cd !important;
+	color: #fbb03b !important;
 }
 
 .custom-social-icons li a {
