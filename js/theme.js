@@ -1,7 +1,7 @@
 /*
 Name: 			Theme Base
 Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	9.9.0
+Theme Version:	9.9.1
 */
 
 // Theme
@@ -262,7 +262,7 @@ window.theme.fn = {
 		$('.modalThemeErrorMessage').remove();
 		$('body').append('<div class="modal fade" id="modalThemeErrorMessage" aria-hidden="true" tabindex="-1"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">' + title + '</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body">' + content + '</div><div class="modal-footer"><button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button></div></div></div></div>');
 
-		var modalThemeErrorMessage = document.getElementById('');
+		var modalThemeErrorMessage = document.getElementById('modalThemeErrorMessage');
 		var modalThemeErrorMessage = bootstrap.Modal.getOrCreateInstance(modalThemeErrorMessage);
 		modalThemeErrorMessage.show();
 
@@ -5548,12 +5548,12 @@ window.theme.fn = {
 					break;
 
 				case 'right':
-					self.options.wrapper.find('.readmore-button-wrapper').addClass('text-right');
+					self.options.wrapper.find('.readmore-button-wrapper').addClass('text-end');
 					break;
 
 				case 'left':
 				default:
-					self.options.wrapper.find('.readmore-button-wrapper').addClass('text-left');
+					self.options.wrapper.find('.readmore-button-wrapper').addClass('text-start');
 					break;
 			}
 

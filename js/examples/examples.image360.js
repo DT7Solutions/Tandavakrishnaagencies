@@ -1,7 +1,7 @@
 /*
 Name: 			360º Image Viewer - Examples
 Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	9.9.0
+Theme Version:	9.9.1
 Credits: Codyhouse (https://codyhouse.co/gem/360-degrees-product-viewer)
 */
 

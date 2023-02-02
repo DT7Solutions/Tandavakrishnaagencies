@@ -1,7 +1,7 @@
 /*
 Name: 			theme.css
 Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	9.9.0
+Theme Version:	9.9.1
 */
 html {
 	direction: rtl;
@@ -8005,6 +8005,46 @@ a.text-light:focus, a.text-light:hover {
 	.border-sm-none {
 		border: 0 !important;
 	}
+}
+
+.perspective-100 {
+	perspective: 100px !important;
+}
+
+.perspective-200 {
+	perspective: 200px !important;
+}
+
+.perspective-300 {
+	perspective: 300px !important;
+}
+
+.perspective-400 {
+	perspective: 400px !important;
+}
+
+.perspective-500 {
+	perspective: 500px !important;
+}
+
+.perspective-600 {
+	perspective: 600px !important;
+}
+
+.perspective-700 {
+	perspective: 700px !important;
+}
+
+.perspective-800 {
+	perspective: 800px !important;
+}
+
+.perspective-900 {
+	perspective: 900px !important;
+}
+
+.perspective-1000 {
+	perspective: 1000px !important;
 }
 
 /* Rounder Circle */

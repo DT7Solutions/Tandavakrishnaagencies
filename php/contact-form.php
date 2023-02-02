@@ -2,7 +2,7 @@
 /*
 Name: 			Contact Form
 Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	9.9.0
+Theme Version:	9.9.1
 */
 
 namespace PortoContactForm;

@@ -2,7 +2,7 @@
 /*
 Name: 			theme-elements.css
 Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	9.9.0
+Theme Version:	9.9.1
 */
 /* Accordion */
 .accordion .card {
@@ -576,6 +576,27 @@ Theme Version:	9.9.0
 
 .maskLeft {
 	animation-name: maskLeft;
+}
+
+/* Text Entrance */
+@keyframes textEntrance {
+	from {
+		opacity: 0;
+		transform: translateY(100%) rotateX(-80deg);
+	}
+
+	to {
+		transform: none;
+		opacity: 1;
+	}
+}
+
+.textEntrance {
+	transform-origin: center top;
+	transform-style: preserve-3d;
+	transition: opacity 0s cubic-bezier(0.215, 0.61, 0.355, 1), transform 0s cubic-bezier(0.215, 0.61, 0.355, 1);
+	transition-duration: 0.8s;
+	animation-name: textEntrance;
 }
 
 @keyframes headerReveal {
@@ -13628,7 +13649,7 @@ section.section {
 	background: #f7f7f7;
 	border-top: 5px solid #f1f1f1;
 	margin: 30px 0;
-	/* padding: 50px 0; */
+	padding: 50px 0;
 }
 
 section.section > .container {

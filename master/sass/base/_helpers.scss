@@ -1033,6 +1033,13 @@ a.text-light {
 	}
 }
 
+// Perspective
+@for $i from 1 through 10 {
+	.perspective-#{$i}00 {
+		perspective: unquote($i + '00px') !important;
+	}
+}
+
 /* Rounder Circle */
 .rounded-circle {
 	border-radius: 50%! important;

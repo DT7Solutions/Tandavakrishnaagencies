@@ -327,6 +327,10 @@
           playbackRate: settings.playbackRate,
           defaultPlaybackRate: settings.playbackRate
         });
+
+       if (settings.autoplay) {
+       	 $video.attr('playsinline', '');
+       }
     } catch (e) {
       throw new Error(NOT_IMPLEMENTED_MSG);
     }
@@ -342,9 +346,6 @@
       '-ms-transform': 'translate(-' + position.x + ', -' + position.y + ')',
       '-moz-transform': 'translate(-' + position.x + ', -' + position.y + ')',
       transform: 'translate(-' + position.x + ', -' + position.y + ')',
-
-      // Disable visibility, while loading
-      visibility: 'hidden',
       opacity: 0
     })
 

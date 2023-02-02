@@ -2,7 +2,7 @@
 /*
 Name: 			Newsletter Subscribe
 Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	9.9.0
+Theme Version:	9.9.1
 */
 
 include('./mailchimp/mailchimp.php'); 
