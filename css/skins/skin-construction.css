@@ -92,7 +92,7 @@ html .text-hover-light:hover {
 }
 
 html .svg-fill-color-primary {
-	fill: #E04622 !important;
+	fill: #e3770e !important;
 }
 
 html .svg-fill-color-primary svg path,
@@ -4701,11 +4701,11 @@ html[dir="rtl"] #header .tip-light:before {
 	}
 
 	#header .header-nav.header-nav-links nav > ul li:hover > a {
-		color: #E04622;
+		color: #e3770f;
 	}
 
 	#header .header-nav.header-nav-links nav > ul:not(:hover) > li > a.active {
-		color: #E04622;
+		color: #2e3192;
 	}
 
 	#header .header-nav.header-nav-links.header-nav-links-vertical-slide nav ul li.dropdown .dropdown-menu::-webkit-scrollbar-thumb {
@@ -7406,7 +7406,7 @@ ul.comments .comment-block,
 * Header
 */
 html #header .header-logo.custom-header-logo:before {
-	background-color: #E04622;
+	background-color: #fff;
 }
 /*
 * Sticky Sidebar
