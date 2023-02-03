@@ -1,11 +1,11 @@
 ::-moz-selection {
 	color: #FFF;
-	background: #E04622;
+	background: #E2760E;
 }
 
 ::selection {
 	color: #FFF;
-	background: #E04622;
+	background: #E2760E;
 }
 
 :root {
@@ -73,7 +73,7 @@ html .text-hover-quaternary:hover {
 
 html .text-color-dark,
 html .text-dark {
-	color: #212529 !important;
+	color: #2e3192 !important;
 }
 
 html .text-color-hover-dark:hover,
@@ -1088,7 +1088,7 @@ html .overlay-color-light:not(.no-skin):before {
 }
 
 .btn-link:hover {
-	color: #e35938;
+	color: #E2760E;
 }
 
 .btn-link:active {
@@ -1096,24 +1096,24 @@ html .overlay-color-light:not(.no-skin):before {
 }
 
 html .btn-primary {
-	background-color: #E04622;
-	border-color: #E04622 #E04622 #b63719;
+	background-color: #2f3292;
+	border-color: #2f3292 #2f3292 #2f3292;
 	color: #FFF;
-	--color: #E04622;
-	--hover: #e56244;
-	--disabled: #E04622;
-	--active: #c13a1b;
+	--color: #E2760E;
+	--hover: #E2760E;
+	--disabled: #E2760E;
+	--active: #E2760E;
 }
 
 html .btn-primary:hover,
 html .btn-primary.hover {
-	border-color: #e66b4f #e66b4f #E04622;
+	border-color: #E2760E #E2760E #E2760E;
 	color: #FFF;
 }
 
 html .btn-primary:hover:not(.bg-transparent),
 html .btn-primary.hover:not(.bg-transparent) {
-	background-color: #e56244;
+	background-color: #E2760E;
 }
 
 html .btn-primary:focus,
@@ -1140,7 +1140,7 @@ html .btn-primary:disabled:not(.bg-transparent) {
 
 html .btn-primary:active,
 html .btn-primary.active {
-	border-color: #b63719 #b63719 #892913 !important;
+	border-color: #2f3292 #2f3292 #2f3292 !important;
 }
 
 html .btn-primary:active:not(.bg-transparent),
@@ -4701,15 +4701,15 @@ html[dir="rtl"] #header .tip-light:before {
 	}
 
 	#header .header-nav.header-nav-links nav > ul li:hover > a {
-		color: #e3770f;
+		color: #2E3192;
 	}
 
 	#header .header-nav.header-nav-links nav > ul:not(:hover) > li > a.active {
-		color: #2e3192;
+		color: #e3770f;
 	}
 
 	#header .header-nav.header-nav-links.header-nav-links-vertical-slide nav ul li.dropdown .dropdown-menu::-webkit-scrollbar-thumb {
-		background: #E04622 !important;
+		background: #2E3192 !important;
 	}
 
 	#header .header-nav.header-nav-line nav > ul li:hover > a {
@@ -7406,7 +7406,7 @@ ul.comments .comment-block,
 * Header
 */
 html #header .header-logo.custom-header-logo:before {
-	background-color: #fff;
+	background-color: #d3d3d3;
 }
 /*
 * Sticky Sidebar
