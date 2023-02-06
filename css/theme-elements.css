@@ -15328,11 +15328,11 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 }
 
 .svg-stroke-color-dark {
-	stroke: #212529 !important;
+	stroke: #E2760E !important;
 }
 
 .svg-stroke-color-dark svg path, .svg-stroke-color-dark svg rect {
-	stroke: #212529 !important;
+	stroke: #E2760E !important;
 }
 
 .svg-stroke-color-hover-dark:hover {
