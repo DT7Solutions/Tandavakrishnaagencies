@@ -16,15 +16,15 @@
 }
 
 a {
-	color: #E04622;
+	color: #e2760e;
 }
 
 a:hover {
-	color: #e35938;
+	color: #e2760e;
 }
 
 a:focus {
-	color: #e35938;
+	color: #e2760e;
 }
 
 a:active {
@@ -33,17 +33,17 @@ a:active {
 
 html .text-color-primary,
 html .text-primary {
-	color: #E04622 !important;
+	color: #303392 !important;
 }
 
 html .text-color-hover-primary:hover,
 html .text-hover-primary:hover {
-	color: #E04622 !important;
+	color: #e2760e !important;
 }
 
 html .text-color-secondary,
 html .text-secondary {
-	color: #EEAB26 !important;
+	color: #303392 !important;
 }
 
 html .text-color-hover-secondary:hover,
@@ -100,11 +100,11 @@ html .svg-fill-color-primary svg rect,
 html .svg-fill-color-primary svg line,
 html .svg-fill-color-primary svg polyline,
 html .svg-fill-color-primary svg polygon {
-	fill: #E04622 !important;
+	fill: #E2760E !important;
 }
 
 html .svg-fill-color-hover-primary:hover {
-	fill: #E04622 !important;
+	fill: #E2760E !important;
 }
 
 html .svg-fill-color-hover-primary svg:hover path,
@@ -436,7 +436,7 @@ html .svg-stroke-color-hover-light svg:hover polygon {
 
 html .bg-color-primary,
 html .bg-primary {
-	background-color: #E04622 !important;
+	background-color: #e2760e !important;
 }
 
 html .bg-color-hover-primary:hover,
@@ -2591,11 +2591,11 @@ html .mark.mark-gradient.mark-gradient-light::before {
 }
 
 .process .process-step-circle {
-	border-color: #E04622;
+	border-color: #E2760E;
 }
 
 .process .process-step:hover .process-step-circle {
-	background-color: #E04622;
+	background-color: #E2760E;
 }
 
 .process .process-step:hover .process-step-circle .process-step-circle-content {
@@ -3448,7 +3448,7 @@ html body .tabs.tabs-bottom .nav-tabs .nav-link.active:hover,
 html.dark body .tabs.tabs-bottom .nav-tabs .nav-link.active:hover,
 html body .tabs.tabs-bottom .nav-tabs .nav-link.active:focus,
 html.dark body .tabs.tabs-bottom .nav-tabs .nav-link.active:focus {
-	border-bottom-color: #E04622;
+	border-bottom-color: #2d3091;
 }
 
 html body .tabs.tabs-vertical.tabs-left .nav-tabs li .nav-link:hover,
@@ -3481,8 +3481,8 @@ html body .tabs.tabs-simple .nav-tabs > li .nav-link:hover,
 html.dark body .tabs.tabs-simple .nav-tabs > li .nav-link:hover,
 html body .tabs.tabs-simple .nav-tabs > li .nav-link.active:hover,
 html.dark body .tabs.tabs-simple .nav-tabs > li .nav-link.active:hover {
-	border-top-color: #E04622;
-	color: #E04622;
+	border-top-color: #e2760e;
+	color: #e2760e;
 }
 
 html body .tabs-primary .nav-tabs li .nav-link,
@@ -3493,7 +3493,7 @@ html body .tabs-primary .nav-tabs li .nav-link:hover,
 html.dark body .tabs-primary .nav-tabs li .nav-link:hover,
 html body .tabs-primary .nav-tabs.nav-justified li .nav-link:hover,
 html.dark body .tabs-primary .nav-tabs.nav-justified li .nav-link:hover {
-	color: #E04622;
+	color: #e2760e;
 }
 
 html body .tabs-primary .nav-tabs li .nav-link:hover,
@@ -7412,7 +7412,7 @@ html #header .header-logo.custom-header-logo:before {
 * Sticky Sidebar
 */
 #sidebar a.active {
-	color: #E04622 !important;
+	color: #e2760e !important;
 }
 /*
 * Thumb Gallery Wrapper
@@ -7425,22 +7425,22 @@ html #header .header-logo.custom-header-logo:before {
 * Accordion
 */
 .custom-accordion-style-1 > .card .card-header a:not(.collapsed) {
-	background-color: #E04622;
+	background-color: #E2760E;
 	color: #FFF !important;
 }
 
 .custom-accordion-style-1 > .card:hover .card-header a.collapsed {
-	color: #E04622 !important;
+	color: #E2760E !important;
 }
 /*
 * Process
 */
 .custom-process-style-1.process.process-vertical .process-step-circle .process-step-circle-content {
-	color: #E04622;
+	color: #E2760E;
 }
 
 .custom-process-style-1.process.process-vertical .process-step:hover .process-step-circle {
-	border-color: #E04622;
+	border-color: #E2760E;
 }
 
 .custom-process-style-1.process.process-vertical .process-step:hover .process-step-circle .process-step-circle-content {

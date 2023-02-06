@@ -468,14 +468,14 @@ body {
 /*
 * Footer
 */
-#footer p,
+/* #footer p,
 #footer a:not(.btn),
 #footer li,
 #footer strong,
 #footer .footer-copyright p,
 #footer a:not(.btn):not(.no-footer-css) {
-		color: #b5b5b5;
-}
+		color: black;
+} */
 
 .custom-list-style-1 > li {
 		margin-bottom: 0;
