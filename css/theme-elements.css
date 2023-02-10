@@ -4519,7 +4519,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 }
 
 .horizontal-scroller {
-	padding: 32px 0;
+	padding: 502px 0;
 	padding: 2rem 0;
 	height: 100vh;
 	position: relative;
@@ -13009,7 +13009,7 @@ html.boxed .nav-secondary.sticky-active {
 .parallax blockquote span {
 	font-size: 16px;
 	line-height: 20px;
-	color: #999;
+	color: #2D3091;
 	position: relative;
 	left: -5px;
 }
@@ -14810,7 +14810,7 @@ html.boxed .slider-container {
 }
 
 .social-icons li:hover.social-icons-instagram a {
-	background: #7c4a3a !important;
+	background: #2F3292 !important;
 }
 
 .social-icons li:hover.social-icons-skype a {
@@ -16035,7 +16035,7 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 }
 
 .testimonial .testimonial-author strong {
-	color: #111;
+	color: #2D3091;
 	display: block;
 	margin-bottom: 2px;
 	font-size: 16px;
@@ -16401,7 +16401,7 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 }
 
 .testimonial.testimonial-with-quotes.testimonial-quotes-dark blockquote:before, .testimonial.testimonial-with-quotes.testimonial-quotes-dark blockquote:after {
-	color: #212529 !important;
+	color: #E3770F !important;
 }
 
 @media (max-width: 767px) {
@@ -17878,7 +17878,7 @@ p.drop-caps.drop-caps-style-2:first-letter {
 /* Text Color Default */
 .text-default,
 .text-color-default {
-	color: #777 !important;
+	color: #E3770F !important;
 }
 
 /* Marquee */
