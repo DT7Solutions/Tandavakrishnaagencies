@@ -14882,11 +14882,11 @@ html.boxed .slider-container {
 }
 
 .social-icons.social-icons-medium li a, .social-icons.social-icons-md li a {
-	height: 33px;
-	line-height: 33px;
-	width: 33px;
+	height: 35px;
+	line-height: 38px;
+	width: 35px;
 	font-size: 14.4px;
-	font-size: 0.9rem;
+	font-size: 1.2rem;
 }
 
 .social-icons.social-icons-big li a, .social-icons.social-icons-lg li a {
