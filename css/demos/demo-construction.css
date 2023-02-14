@@ -520,6 +520,21 @@ html:not(.sticky-header-active) #header.header-semi-transparent-light .header-bo
 		}
 }
 
+@media (max-width: 575px) {
+	.service-diamonds {
+		display: none;
+	}
+}
+
+@media (min-width: 574px) {
+	.service-diamonds {
+		display: block;
+	}
+	.product-slider {
+		display: none;
+	}
+}
+
 /*
 * Testimonials
 */
