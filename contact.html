@@ -204,7 +204,7 @@
 						<div class="col-lg-6 mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1400">
 							<h2 class="font-weight-bold text-color-dark text-6 mb-0">Send Us a Message</h2>
 							<p class="text-3-5 font-weight-light mb-5-5">Contact us or give us a call to discover how we can help.</p>
-							<form class="contact-form form-style-3" action="#" method="POST">
+							<form class="contact-form form-style-3" method="POST" onsubmit="sendEmail(); reset(); return false;">
 								<div class="contact-form-success alert alert-success d-none mt-4">
 									<strong>Success!</strong> Your message has been sent to us.
 								</div>
@@ -241,7 +241,7 @@
 								</div> -->
 								<div class="row">
 									<div class="form-group col">
-										<button type="submit" class="custom-view-more d-inline-flex align-items-center btn btn-primary font-weight-semibold rounded-0 text-3-5 btn-px-4 btn-py-2" data-loading-text="Loading..." onclick="sendEmail()">
+										<button type="submit" class="custom-view-more d-inline-flex align-items-center btn btn-primary font-weight-semibold rounded-0 text-3-5 btn-px-4 btn-py-2" data-loading-text="Loading..." >
 											Submit
 											<img width="27" height="27" src="img/demos/construction/icons/arrow-right.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light ms-2'}" />
 										</button>
@@ -461,16 +461,16 @@
 		<script type="text/javascript">
 			function sendEmail() {
 			Email.send({
-				Host: "smtp.gmail.com",
+				Host: "smtp.elasticemail.com",
 				Username: "tandavakrishnaagencies@gmail.com",
-				Password: "Dt7@2021",
+				Password: "E60D61FF1071070E009D1520D6A2EA6F8380",
 				To: "tandavakrishnaagencies@gmail.com",
 				From: document.querySelector('.email'),
 				Subject:document.querySelector('.subject'),
 				Body: document.querySelector('.message'),
 			})
 				.then(function (message) {
-				alert("mail sent successfully")
+				alert("hello tandavakrishnaagencies mail sent successfully!")
 				});
 			}
 		</script>
