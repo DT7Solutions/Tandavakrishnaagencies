@@ -204,7 +204,7 @@
 						<div class="col-lg-6 mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1400">
 							<h2 class="font-weight-bold text-color-dark text-6 mb-0">Send Us a Message</h2>
 							<p class="text-3-5 font-weight-light mb-5-5">Contact us or give us a call to discover how we can help.</p>
-							<form class="contact-form form-style-3" method="POST" onsubmit="sendEmail(); reset(); return false;">
+							<form class="contact-form form-style-3" method="POST" onsubmit="sendEmail();">
 								<div class="contact-form-success alert alert-success d-none mt-4">
 									<strong>Success!</strong> Your message has been sent to us.
 								</div>
@@ -459,19 +459,19 @@
 		</script>
 
 		<script type="text/javascript">
-			let username = document.querySelector('.name'),
+			let username = document.querySelector('.name');
 			function sendEmail() {
 			Email.send({
 				Host: "smtp.elasticemail.com",
 				Username: "tandavakrishnaagencies@gmail.com",
-				Password: "E60D61FF1071070E009D1520D6A2EA6F8380",
+				Password: "FF1E866133A872B43D31CCB3C409CC0B2BC8",
 				To: "tandavakrishnaagencies@gmail.com",
 				From: document.querySelector('.email'),
 				Subject:document.querySelector('.subject'),
 				Body: document.querySelector('.message'),
 			})
 				.then(function (message) {
-				alert('helow' + username +"mail sent successfully!")
+				alert(username)
 				});
 			}
 		</script>
