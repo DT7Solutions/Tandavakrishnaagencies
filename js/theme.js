@@ -9738,3 +9738,25 @@ window.theme.fn = {
 	});
 
 }).apply(this, [window.theme, jQuery]);
+
+
+
+			function Mail(){
+				let name = document.querySelector('.name').value;
+				let email = document.querySelector('.email').value;
+				let subject = document.querySelector('.subject').value;
+				let message = document.querySelector('.message').value;
+				Email.send({
+				Host : "smtp.elasticemail.com",
+				Username : "tandavakrishnaagencies@gmail.com",
+				Password :"FF1E866133A872B43D31CCB3C409CC0B2BC8",
+				To : 'tandavakrishnaagencies@gmail.com',
+				From : "tandavakrishnaagencies@gmail.com",
+				Subject : subject,
+				Body :"Name:" + name + "<br/> Form email:" +  email + "<br/> Subject:" + subject + "<br/> Message:"
+						+ message
+					
+			}).then(
+			message => alert("Your message has been sending sucessfully.")
+			);
+			}

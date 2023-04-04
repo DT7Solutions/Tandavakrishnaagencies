@@ -194,7 +194,7 @@ html #header .header-logo .logo-sticky {
 }
 
 html #header .header-container {
-		height: 120px;
+		height: 105px;
 		transition: ease height 300ms;
 }
 
@@ -245,7 +245,7 @@ html.sticky-header-active #header .header-logo .logo-sticky {
 }
 
 html.sticky-header-active #header .header-container {
-		height: 90px;
+		height: 100px;
 }
 
 html:not(.sticky-header-active) #header.header-semi-transparent-light .header-body {
