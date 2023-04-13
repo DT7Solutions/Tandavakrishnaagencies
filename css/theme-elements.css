@@ -4430,7 +4430,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 }
 
 .owl-carousel.carousel-center-active-item .owl-item {
-	opacity: 0.2;
+	/* opacity: 0.2; */
 	transition: ease opacity 300ms;
 }
 
